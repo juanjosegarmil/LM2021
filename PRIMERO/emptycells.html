@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedad empty-cells y caption-side</title>
+</head>
+<body>
+    <table cellspacing="10">
+        <caption style="text-align: center; font-size: 20px; padding-bottom: 10px;">Propiedad empty-cells y caption-side</caption>
+        <thead>           
+            <tr>
+            <th style="padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px; empty-cells: hide;"></th>
+            <th style="border: 1px solid black; background-color: darkkhaki; color: darkred; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;">
+                <span>Columna 1</span>
+            </th>
+            <td style="border: 1px solid black; background-color: darkkhaki; color: darkred; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;">
+                <span>Columna 2</span>
+            </td>
+            <th style="border: 1px solid black; background-color: darkkhaki; color: darkred; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;">
+                <span>Columna 3</span>
+            </th>
+            <th style="border: 1px solid black; background-color: darkkhaki; color: darkred; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;">
+                <span>Columna 4</span>
+            </th>
+            <th style="border: 1px solid black; background-color: darkkhaki; color: darkred; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px;">
+                <span>Columna 5</span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid black; background-color: darkkhaki; color: darkred; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; ">
+                Fila 1
+            </td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 1,1</span>
+            </td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 1,2</span>
+            </td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 1,3</span>
+            </td>
+            <td></td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 1,5</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; background-color: darkkhaki; color: darkred; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; ">
+                Fila 2
+            </td>
+            <td style="empty-cells: hide;"></td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 2,2</span>
+            </td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 2,3</span>
+            </td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 2,4</span>
+            </td>
+            <td style="empty-cells: hide;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; background-color: darkkhaki; color: darkred; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; ">
+                Fila 3
+            </td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 3,1</span>
+            </td>
+            <td style="empty-cells: hide;"></td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 3,3</span>
+            </td>
+            <td  style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 3,4</span>
+            </td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 3,5</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; background-color: darkkhaki; color: darkred; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; ">
+                Fila 4
+            </td>
+            <td style="empty-cells: hide;"></td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 4,2</span>
+            </td>
+            <td style="empty-cells: hide;"></td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 4,4</span>
+            </td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 4,5</span>
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td style="border: 1px solid black; background-color: darkkhaki; color: darkred; padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; ">
+                Fila 5
+            </td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 5,1</span>
+            </td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 5,2</span>
+            </td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 5,3</span>
+            </td>
+            <td></td>
+            <td style="background-color: deepskyblue;color: blue; border: 1px solid black;">
+                <span style="text-align: start;">Celda 5,5</span>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+<span style="color: darkred; text-align: center; font-size: 18px; padding-left: 230px;">Tabla de ejemplo</span>
+</body>
+</html>
