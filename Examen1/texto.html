@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto</title>
+</head>
+<body>
+    <span><b>Texto en negrita</b></span><br>
+    <i>Texto definición</i><br>
+    <span>Texto código fuente de ordenador</span><br>
+    <span>Texto ejemplo de código fuente de ordenador</span><br>
+    <span>Texto de teclado</span><br>
+    <i>variable</i><br>
+    <span>En esta línea se muestra un <s>texto tachado</s> y se simula <u>una corrección</u></span><br>
+    <i>Esto es una cita Cita</i><br>
+    <span style="font-size: 20px;">Este texto más grande</span><span style="font-size: 10px;">y este texto más grande</span><br>
+    <span>En esta línea tenemos <sup>texto en superindice</sup> y <sub>texto en subindice</sub></span>
+    <br><br>
+
+    <div style="float: left;"><img src="../Imágenes/img/lobo.jpg" width="100px" height="100px" style="text-align: start;"></div>
+    <div style="margin-left: 110px;">
+            <span style="text-align: center;">Lorem ipsum</span><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla sapien, semper in sodales ac, rutrum at orci. Maecenas vulputate nec tellus sit amet porttitor. Suspendisse congue porta sagittis. Ut erat diam, consectetur sed tempus id, sodales nec felis. Donec sagittis nunc sapien, non consequat nunc ultrices non. Aliquam accumsan ligula ante, non commodo risus sodales a. Vestibulum facilisis, enim in porta fringilla, tortor sapien congue purus, porta consectetur sem turpis vitae mauris. Donec dapibus justo a elit semper, et scelerisque mauris ullamcorper. Maecenas blandit arcu nec euismod pellentesque. Fusce et imperdiet nisi, at suscipit sem. Aliquam pulvinar risus id cursus elementum. Nulla elementum placerat nibh, in dictum enim mollis non. Morbi vehicula eget est et tristique. Aenean condimentum augue id congue convallis. Phasellus congue non tellus nec pretium. Maecenas eu vulputate lacus, eget feugiat odio.
+        
+    </div>
+
+    <br><br>
+    <table style="border: 1px solid black;">
+        <thead>
+            <tr>
+                <th rowspan="2" colspan="2"></th>
+            </tr>
+            <tr>
+                <th colspan="2" style="border: black 1px solid;">Hoteles 3 estrellas</th>
+                <th rowspan="2" style="border: black 1px solid;">Hoteles 4 estrellas</th>
+            </tr>
+            <tr>
+                <th colspan="2" rowspan="2"></th>
+                <th style="border: black 1px solid;">Solo alojamiento</th>
+                <th style="border: black 1px solid;">pensión completa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" style="border: black 1px solid;">1 semana</td>
+                <td style="border: black 1px solid;">Avión turista</td>
+                <td style="border: black 1px solid;">700 USD</td>
+                <td style="border: black 1px solid;">1000 USD</td>
+                <td rowspan="2" style="border: black 1px solid;">1500 USD</td>
+            </tr>
+            <tr>
+                <td style="border: black 1px solid;">Avión preferente</td>
+                <td style="border: black 1px solid;">850 USD</td>
+                <td style="border: black 1px solid;">1150 USD</td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <td colspan="2" rowspan="2" style="border: black 1px solid;">2 semanas</td>
+                <td style="border: black 1px solid;">1300 USD</td>
+                <td style="border: black 1px solid;">1850 USD</td>
+                <td>2600 USD</td>
+            </tr>
+        </thead>
+    </table>
+    <br><br>
+    <div style="background-color: gainsboro; width: 850px; height: 600px;" >
+        <caption style="text-align: start;">PAGE</caption>
+        <div style="background-color: greenyellow;margin-left: 20px; margin-top: 30px; margin-right: 20px; width: 800px; height: 500px;">
+            <div style="width: 800px; height: 50px;">
+                <caption style="text-align: start;width: 600px; height: 100px;">HEADER</caption>
+            </div>
+           
+            <div style="background-color: indianred; width: 800px; height: 400px;">
+                <caption style="text-align: start;">CONTENT</caption>
+
+                <div style="float: left; margin-top: 30px;">
+                    <div style="width: 450px; height: 110px; background-color: blue; margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px;"><caption>ENTRY</caption></div>
+                <div style="width: 450px; height: 110px; background-color: blue; margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px;"><caption>ENTRY</caption></div>
+                <div style="width: 450px; height: 110px; background-color: blue; margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px;"><caption>ENTRY</caption></div>
+                </div>
+                <div style="width: 250px; height: 350px;background-color: blue;float: left; margin-top: 40px;">SIDEBARR</div>
+                
+                
+                
+            </div>
+            <div style="background-color: chartreuse; width: 800px; height: 50px;">
+                FOOTER
+            </div>
+        </div>
+    </div>
+    <br>
+    <form action="../acciones/registro.php" method="POST">
+        <table cellspacing = 10>
+            <caption style="text-align: start; font-size: 30px;">HTML Form</caption>
+            <tr>
+                <td><label for="nombre">First Name:</label></td>
+                <td><input type="text" name="nombre" id="nombre" placeholder="First name" 
+                 maxlength="20"/></td>
+            </tr>
+            <tr>
+                <td><label for="nombre2">Last Name:</label></td>
+                <td><input type="text" name="nombre2" id="nombre2" placeholder="Last name" 
+                 maxlength="20"/></td>
+            </tr>
+            <tr>
+                <td><label for="Cumpleaño">Date of Birth:</label></td>
+                <td><input type="date" id="Cumpleaño" name="Cumpleaño"></td>
+            </tr>
+            <tr>
+                <td><label for="correo">Email id:</label></td>
+                <td><input type="email" name="correo" id="correo" required></td>
+            </tr>
+            <tr>
+                <td><label for="telefono">Mobile Number:</label></td>
+                <td><input type="tel" id="telefono" name="telefono" required pattern="[0-9]{2}[0-9]{9}" placeholder="formato +34738573847"></td>
+            </tr>
+            <tr>
+                
+                <td>
+                    <input type="submit" value="enviar">
+                    <input type="reset" value="resetear">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
