@@ -68,7 +68,7 @@ body {
 }
 #column{
     float: left;
-    margin: 30px;
+    margin: 20px;
     background-color: royalblue;
 }
 #column div {
@@ -100,7 +100,7 @@ body {
 a:link, a:visited, a:active {
     text-decoration:none;
 }
-#final {
-    text-align: right;
+#c li {
+    text-align: center;
 }
 
