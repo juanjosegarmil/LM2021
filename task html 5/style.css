@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font: bold 20px verdana, sans-serif;
+    color: red;
+}
+h2{
+    font: bold 20px verdana, sans-serif;
+    color: blue;
+}
+header, section, footer, aside, nav, article {
+    display: block;
+}
+body {
+    text-align: center;
+    background-color: grey;
+}
+#div {
+    margin: 15px 15px 15px 15px;
+    text-align: left;
+    background-color: yellow;
+    border: 5px solid black;
+    height: 800px;
+}
+#head {
+    color: forestgreen;
+    background-color: darkseagreen;
+    padding: 30px;
+}
+#head img {
+    float: left;
+    padding-right: 40px;
+}
+#menu{
+    background-color: cornflowerblue;
+}
+#menu li {
+    color: blue;
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    border-right: solid 2px blue;
+}
+#main {
+    float: left;
+    background-color: orange;
+    width: 1000px;
+    margin: 20px;
+}
+#inicio {
+    background-color: peru;
+    padding: 9px;
+    color: blue;
+}
+#colornaranja{
+    color: coral;
+}
+#main header{
+
+    text-align: left;
+}
+#caparticulo {
+    background-color: darkorange;
+    width: 1000px;
+    height: 300px;
+}
+#column{
+    float: left;
+    margin: 30px;
+    background-color: royalblue;
+}
+#column div {
+    padding: 5px;
+}
+#b {
+    background-color: skyblue;
+}
+#a {
+    background-color: slateblue;
+    list-style: none;
+}
+#c {
+    background-color: slateblue;
+    list-style: none;
+}
+#d {
+    background-color: slateblue;
+    padding-left: 10px;
+    list-style: none;
+}
+#negrilla {
+    font-weight: bold;
+}
+#letragrande {
+    font-size: 50px;
+    text-align: center;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+#final {
+    text-align: right;
+}
+

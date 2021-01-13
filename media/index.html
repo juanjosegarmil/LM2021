@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+
+    <style type="text/css">
+        @media only screen and (max-width: 1500px) and (min-width: 547px) {
+            body {
+                background: blue;
+            }
+            p {
+                color: white;
+            }
+        }
+        @media only screen and (max-width: 794px) and (min-width: 547px) {
+            body {
+                background: red;
+            }
+            p {
+                font-size: 24px;
+            }
+        }
+        @media only screen and (max-width: 547px){
+            body {
+                background: green;
+            }
+            p {
+                text-decoration: underline;
+            }
+        }
+        @media only screen and (max-width: 1920px) and (min-width: 1080px) {
+            body {
+                background: burlywood;
+            }
+            p {
+                color: white;
+            }
+        }
+        @media print {
+            * {
+                font-family: 'Times New Roman', Times, serif;
+            }
+        }
+        @media all and (orientation: landscape){
+            p {
+                font-size: 7px;
+            }
+        }
+        @media all and (orientation: portrait){
+            p {
+                font-size: 50px;
+        }
+        }
+    </style>
+
+</head>
+<body>
+    <p>Mi página</p>
+</body>
+</html>
