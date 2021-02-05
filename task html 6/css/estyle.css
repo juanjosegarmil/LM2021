@@ -1,0 +1,86 @@
+#primeracapa {
+    background: grey;
+    height: 80px;
+    width: 100%;
+}
+h1 {
+    padding: 20px;
+}
+.azul {
+    color: blue;
+}
+h2 {
+    text-align: right;
+    padding-right: 20px;
+}
+h3 {
+    text-align: center;
+}
+.contenedor {
+    display: flex;
+}
+
+#segundacapa{
+    background: darkturquoise;
+    
+}
+#terceracapa{
+    background: darkorange;
+}
+#cuartacapa{
+    background: darkred;
+}
+.trescapas {
+    width: 600px;
+    margin: 5px;
+    border-radius: 30px 0px 30px;
+    border: black 1px solid;
+}
+
+h3 {
+    color: white;
+}
+
+#capafinal {
+    width: 99%;
+    background: grey;
+
+}
+#capafinal2 {
+    width: 95%;
+    background: darkgray;
+    margin: 30px;
+}
+#ultimacapa {
+    text-align: center;
+    background: black;
+    color: white;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+span {
+    text-align: left;
+    margin: 5px;
+}
+iframe {
+    margin: 30px;
+    padding-left: 550px;
+}
+
+#capafinal2 span {
+    margin: 40px;
+}
+
+p {
+    margin: 5px;
+    text-align: left;
+}
+
+span.trescapas {
+    text-align: left;
+}
+
+.imagenes {
+    text-align: center;
+}
