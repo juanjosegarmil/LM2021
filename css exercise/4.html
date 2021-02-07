@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+        #contenedor {
+            display: flex;
+            background: grey;
+            width: 100%;
+            padding: 0%;
+            flex-flow: wrap row;
+        }
+        #capa1 {
+            
+            width: 100%;
+            margin: 0%;
+            text-align: center;
+            padding: 1%;
+            color: white;
+            background: black;
+            text-align: center;
+        }
+        .capas {
+            margin-left: 5px;
+            margin-right: 10px;
+            color: white;
+            padding: 6px;   
+            font-size: 14px; 
+            
+        }
+        
+        #capa2 {
+            background: dimgray;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="capa1">
+        <h1>Flexbox - Alineado a la izquierda</h1>
+    </div>
+    <div id="contenedor">
+        <div class="capas">Enlace 1</div>
+        <div class="capas">Enlace 2</div>
+        <div class="capas" id="capa2">Enlace 3</div>
+        <div class="capas">Enlace 4</div>
+    </div>
+</body>
+</html>

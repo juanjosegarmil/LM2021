@@ -22,18 +22,42 @@ article {
     width: 100%;
 }
 
-#articulo-1 {
+#primero {
     background: coral;
 }
 
-#articulo-2 {
+#segundo {
     background: darkkhaki;
 }
 
-#articulo-3 {
+#tercero {
     background: darkturquoise;
 }
 
 img {
     width: 100%
 }
+p {
+    text-align: left;
+}
+
+
+/*h3 {
+    text-align: center;
+}
+#primero {
+    background: darkolivegreen;
+}
+#primero p {
+    text-align: left;
+}
+img {
+    text-align: center;
+}
+#segundo {
+    background: darkslategray;
+}
+
+#tercero {
+    background: darkturquoise;
+}*/

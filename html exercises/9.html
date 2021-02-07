@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>9</title>
+    <style type="text/css">
+        @media only screen and (max-width: 1920px) and (min-width: 1080px) {
+            div {
+                border: black 1px solid;
+            }
+            img {
+                border: solid 1px black;
+            }
+        }
+        @media only screen and (max-width: 1024px) and (min-width:767px) {
+            div {
+                background: blue;
+            }
+        }
+        @media (min-width: 480px) and (max-width: 479px){
+            div {
+                float: left;
+            }
+        }
+    </style>
+    
 </head>
 <body>
-    <div style="background: tomato; width: 100%;">
-        <img src="../Imágenes/img/lobo.jpg">
+    <div  draggable="true">
+        <img src="../Imágenes/img/lobo.jpg" >
     </div>
 </body>
 </html>
