@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex-02</title>
+    <style>
+        span, h1, p {
+            font-weight: bold
+        }
+        #primera {
+            background-color: blue;
+        }
+        div p {
+            font-style: oblique;
+            font-weight: normal;
+        }
+        .bloque:hover {
+            font-size: 50px;
+        }
+        .bloque::first-letter{
+            font-size: 30px;
+        }
+        a[href$=".com"]:link {
+            text-decoration: none;
+        }
+        a[href$=".com"]:visited {
+            text-decoration: none;
+        }
+        a[href$=".com"]:active {
+            text-decoration: none;
+        }
+        div a {
+            color: red;
+        }
+    
+    </style>
+</head>
+<body>
+    <span>Probando</span>
+    <h1>hola hola hola</h1>
+    <p> Buenas probando la negrita</p>
+    <div id="primera"> hola hola </div>
+    <div>
+        <p> Buenas probando la cursiva</p>
+        <p class="bloque"> Buenas probando la cursiva</p>
+        <p> Buenas probando la cursiva</p>
+        <p> Buenas probando la cursiva</p>
+        <p> Buenas probando la cursiva</p>
+        <p> Buenas probando la cursiva</p>
+        <p> Buenas probando la cursiva</p>
+    </div>
+    <div>
+        <a href="https://www.google.es" target="_blank">google</a>
+        <a href="https://www.google.com" target="_blank">google</a>
+        <a href="https://www.youtube.com" target="_blank">youtube</a>
+        <a href="https://www.youtube.es" target="_blank">youtube</a>
+    </div>
+</body>
+</html>
