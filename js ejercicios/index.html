@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio9</title>
+    <script type="text/javascript" src="funciones.js"></script>
+</head>
+<body>
+    <!--<p>
+        introduce 2 números      
+    </p>
+    <table>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="1"><span id="resultado"></span></td>
+        </tr>
+        <tr>
+            <td colspan="4"><label for="numero1">Nº1</label></td>
+            <td><input type="number" name="numero1" id="numero1"></td>
+        </tr>
+        <tr>
+            <td colspan="4"><label for="numero2">Nº2</label></td>
+            <td><input type="number" name="numero2" id="numero2"></td>
+            
+        </tr>
+        <tr>
+            <td><input type="button" id="sumar" value="+" onclick="calculadora('suma',document.getElementById('numero1').value,document.getElementById('numero2').value)"></td>
+            <td><input type="button" id="restar" value="-" onclick="calculadora('resta',document.getElementById('numero1').value,document.getElementById('numero2').value)"></td>
+            <td><input type="button" id="multiplicar" value="x" onclick="calculadora('mul',document.getElementById('numero1').value,document.getElementById('numero2').value)"></td>
+            <td><input type="button" id="dividir" value="/" onclick="calculadora('div',document.getElementById('numero1').value,document.getElementById('numero2').value)"></td>
+        </tr>
+    </table>-->
+    <table>
+        <table>
+            <caption>CALCULADORA 2</caption>
+            <tr>
+                <td></td>
+                <td>
+                    <textarea name="pantalla" id="pantalla" cols="30" readonly></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="num1">Nº 1</label>
+                </td>
+                <td>
+                    <input type="number" name="num11" id="num11" onkeyup="mostrarN1(this)" autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" value="+" onclick="escribir('+')">
+                    <input type="button" value="-" onclick="escribir('-')">
+                    <input type="button" value="*" onclick="escribir('*')">
+                    <input type="button" value="/" onclick="escribir('/')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="num2">Nº 2</label>
+                </td>
+                <td>
+                    <input type="number" name="num22" id="num22" onkeyup="mostrarN2(this)">
+                </td>
+            </tr>            
+            <tr>   
+                <td></td>             
+                <td>
+                    <input type="button" value="=" style="width: 240px;" onclick="calcular()">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+    </table>
+</body>
+</html>
