@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js 15</title>
+</head>
+<body>
+    <table>
+        <caption>Numero y sus 15 prímeros múltiplos</caption>
+        <tr>
+        <td><label for="numero">Introduce el nº</label></td>
+        <td><input type="text" id="numero" name="numero"></td>
+        </tr>
+        <tr>
+        <tr>
+        <td><button id="mostrar" onclick="multiplos()">calcular</button></td>
+        <td><button id="mostrar" onclick="resetear()">Resetear</button></td>
+        </tr>
+        <tr>
+            <td><span id="resultado"></span></td>
+        </tr>
+    </table>
+    <script>
+        var mul = '';
+        function multiplos() {
+            var num = document.getElementById('numero').value;
+
+            for (let i = 0; i <= 15; i++) {
+                valor = num*i;
+                mul = num + 'x' + i + '=' + valor + '</br>' + mul;
+            }
+            document.getElementById('resultado').innerHTML = mul;
+        }
+        function resetear() {
+            document.getElementById('resultado').innerHTML = '';
+            mul = '';
+        }
+    </script>
+</body>
+</html>

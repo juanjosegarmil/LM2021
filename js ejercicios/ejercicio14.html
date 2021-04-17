@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js 14</title>
+</head>
+<body>
+    <table>
+        <caption>Numero hasta 0</caption>
+        <tr>
+        <td><label for="numero">Introduce el nº</label></td>
+        <td><input type="text" id="numero" name="numero"></td>
+        </tr>
+        <tr>
+        <tr>
+        <td><button id="mostrar" onclick="sumamul()">calcular</button></td>
+        </tr>
+        <tr>
+            <td><span id="resultado"></span></td>
+        </tr>
+    </table>
+    <script>
+        var suma = 0;
+        var mul = 1;
+        function sumamul() {
+            
+            var num = document.getElementById('numero').value;
+            if (num != 0) {
+                suma = eval(num) + eval(suma);
+                mul = mul*num;
+                document.getElementById('resultado').innerHTML = ' Suma: ' + suma + ' mul: ' + mul;
+            }else if (num == 0) {
+                document.getElementById('resultado').innerHTML = 'Has introducido un' + num;
+                suma = 0;
+                mul = 1;
+            }
+            
+    }
+    </script>
+</body>
+</html>
