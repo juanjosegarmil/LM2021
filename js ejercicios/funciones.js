@@ -13,7 +13,7 @@
     var res = num1 / num2;
     document.getElementById("resultado").innerHTML = res;
     }
-}*/
+}
 var n1 = "";
 var op = "";
 var n2 = "";
@@ -40,3 +40,30 @@ function calcular() {
     document.getElementById("num22").value = "";
     document.getElementById("num11").focus();
 } 
+*/
+var aleatorio= parseInt(Math.random() * 10);
+var intentos = 3;
+//alert(aleatorio);
+function comprobar() {
+    var numero = document.getElementById("numero").value;
+
+    var texto = "";
+
+    if (intentos > 0) {
+        if (numero == aleatorio) {
+            texto = "Has Acertado!!!";
+        } else if (numero > aleatorio) {
+            intentos = intentos - 1;
+            texto = "El número que buscas es menor y te quedan " + intentos + " intentos";            
+        } else {
+            intentos = intentos - 1;
+            texto = "El número que buscas es mayor y te quedan " + intentos + " intentos";            
+        }
+    } else {
+        texto = "Sin intentos";
+    }    
+
+    document.getElementById("resultado").innerHTML = texto;
+    
+}
+

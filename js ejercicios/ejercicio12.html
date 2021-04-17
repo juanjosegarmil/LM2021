@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js 12</title>
+</head>
+<body>
+    <table>
+        <caption>Comprobar si un Nº es primo</caption>
+        <tr>
+        <td><label for="numero">Introduce el nº</label></td>
+        <td><input type="text" id="numero" name="numero" onkeyup="borrar()"></td>
+        </tr>
+        <tr>
+        <tr>
+        <td><button id="mostrar" onclick="primo()">comprobar</button></td>
+        </tr>
+        <tr>
+            <td><span id="resultado"></span></td>
+        </tr>
+    </table>
+    <script>
+        function primo() {
+            var num = document.getElementById('numero').value;
+            
+            if (num == 0) {
+                document.getElementById('resultado').innerHTML = ' Pon otro num distindo de '+ num;
+            }else if (num == 1) {
+                document.getElementById('resultado').innerHTML = ' Pon otro num distindo de '+ num;
+            }else {
+                for (let i = 2; i< num; i++) {
+                var resto = num%i;
+                if (resto == 0) {
+                    var primo = 0;
+                    break;
+                } else {
+                    primo = 1;
+                }
+                
+            }
+            if (primo == 0) {
+                document.getElementById('resultado').innerHTML = ' El ' + num + ' no es primo ';
+            }else {
+                document.getElementById('resultado').innerHTML = ' El ' + num + ' es primo ';
+            }
+            }
+        }
+        function borrar() {
+            document.getElementById('resultado').innerHTML = '';
+        }
+    </script>
+</body>
+</html>

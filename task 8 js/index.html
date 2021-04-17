@@ -12,9 +12,16 @@
         <td><label for="numero">Nº para tabla de multiplicar</label></td>
         <td><input type="text" id="numero" name="nombre" onclick="ocultar()"></td>
         <td><button id="mostrar" onclick="tablaMul()">Mostrar tabla</button></td>
+        <td><button id="mostrar" onclick="historial()">Historial</button></td>
     </tr>
     <table border="1" id="resultado">
 
     </table>
+    <div id="capahistorial" style="visibility: hidden;">
+        <table border="1" id="historial">
+
+        </table>
+    </div>
+    
 </body>
 </html>
